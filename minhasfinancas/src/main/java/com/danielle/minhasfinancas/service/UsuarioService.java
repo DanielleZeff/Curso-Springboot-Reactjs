@@ -1,8 +1,12 @@
 package com.danielle.minhasfinancas.service;
 
+
+
+import org.springframework.stereotype.Service;
+
 import com.danielle.minhasfinancas.model.entity.Usuario;
 
-
+@Service
 //Vai definir os métodos para trabalhar com Usuario e entidades
 public interface UsuarioService {
 
